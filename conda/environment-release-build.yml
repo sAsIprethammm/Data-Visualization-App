@@ -1,0 +1,46 @@
+name: bk-release-build
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+
+  # build
+  - boto
+  - build
+  - colorama
+  - conda-build=3.22.0
+  - conda-verify=3.4.2
+  - libiconv
+  - nodejs 20.*
+  - ripgrep=0.10.0
+  - setuptools
+  - yaml
+
+  # docs
+  - colorcet
+  - pandas-datareader
+  - firefox >=96
+  - geckodriver
+  - icalendar
+  - ipython
+  - networkx
+  - pygments
+  - pygraphviz
+  - pyshp
+  - scikit-learn
+  - scipy
+  - squarify
+  - sympy
+  - toml
+
+  # pip dependencies
+  - pip
+  - pip:
+    # docs
+    - bokeh_sampledata
+    - pydata_sphinx_theme
+    - sphinx >= 7.1.0
+    - sphinx-copybutton
+    - sphinx-design
+    - sphinx-favicon
+    - sphinxext-opengraph

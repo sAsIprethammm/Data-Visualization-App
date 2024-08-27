@@ -1,0 +1,11 @@
+{
+  "name": "@bokeh/lib",
+  "version": "3.6.0-dev.1",
+  "private": true,
+  "description": "Internal package for bokehjs' implementation",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bokeh/bokeh.git"
+  }
+}

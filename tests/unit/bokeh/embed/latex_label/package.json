@@ -1,0 +1,16 @@
+{
+  "name": "latex_label",
+  "version": "0.0.1",
+  "description": "",
+  "license": "BSD-3-Clause",
+  "keywords": [],
+  "repository": {},
+  "dependencies": {
+    "@bokeh/bokehjs": "../../../../../bokehjs/build/dist/bokeh-bokehjs.tgz",
+    "katex": "^0.16.10"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7"
+  },
+  "main": "dist/latex_label.js"
+}
