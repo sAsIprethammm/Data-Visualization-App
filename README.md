@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bokeh/pm/main/assets/logos/SVG/bokeh-logo-white-text-no-padding.svg">
   <img src="https://raw.githubusercontent.com/bokeh/pm/main/assets/logos/SVG/bokeh-logo-black-text-no-padding.svg" alt="Bokeh logo -- text is white in dark theme and black in light theme" height=60/>
@@ -249,3 +250,7 @@ Non-monetary support can help with development, collaboration, infrastructure, s
 * [Slack](https://slack.com)
 * [QuestionScout](https://www.questionscout.com/)
 * [1Password](https://1password.com/)
+=======
+# bokeh
+Bokeh is a Python library for creating interactive visualizations in web browsers. Build dynamic plots, dashboards, and data applications with Python—no JavaScript needed. Bokeh integrates with Pandas and Jupyter, supports large datasets, and offers extensive customization. Explore examples and contribute via our GitHub.
+>>>>>>> d209a8252be6ba4c1750eb26e5acddd6cb2cb1f5
